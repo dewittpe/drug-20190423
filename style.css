@@ -1,0 +1,42 @@
+title-slide hgroup h1 {
+  font-size: 36px;
+  letter-spacing: 0;
+  padding-left: 2.5cm;
+}
+
+.title-slide hgroup h2 {
+  font-size: 32px;
+  letter-spacing: 0;
+  padding-left: 2.5cm;
+}
+
+.title-slide hgroup p {
+  font-size: 28px;
+  letter-spacing: 0;
+}
+
+input[type="radio"] {
+  width: 50px;
+}
+
+.gdbar img {
+  height: 200px !important;
+  width: 172px !important;
+  margin: 16px 16px 16px 16px;
+}
+
+.gdbar {
+  height: 216px !important;
+  width: 204px !important;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+
+
