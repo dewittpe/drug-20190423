@@ -13,8 +13,11 @@ Depends:
     R (>= 3.5.0)
 Suggests:
     dplyr,
+    ggplot2,
     knitr,
     magrittr,
+    mapproj,
+    maps,
     readr,
     rmarkdown
 RoxygenNote: 6.1.1

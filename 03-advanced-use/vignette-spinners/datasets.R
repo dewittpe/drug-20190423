@@ -186,7 +186,7 @@ if ("drug.eg" %in% installed.packages()[, 1]) {
 # */
 #'
 #' The data sets are aviable in this R package:
-data(package = "drug.eg")$results
+data(package = "drug.eg")$results[, c("Item", "Title")]
 # /*
 }
 # */
