@@ -79,16 +79,16 @@ knitr::opts_chunk$set(collapse = TRUE)
 #' * The markup language is the *primary* language for the file
 #'
 #' * I am a coder:
-#' 
+#'
 #'   * My primary language is the analysis language
 #'   * The markup language is for extremely detailed comments.
-#'   
+#'
 #' * What happens if you tried: `source("00-fligths.Rmd")`?
 #'
 #' ## knitr::spin - Reverse the paradigm
 #'
 #' * `knitr::spin`
-#' 
+#'
 #'   * R is the primary language
 #'   * A markup language is the guest language
 #'
@@ -117,14 +117,38 @@ knitr::opts_chunk$set(collapse = TRUE)
 #'
 #' * Just define the build process you want.
 #'
-#' * Example 02
+#' * Example 02-flights-with-yaml.R
 #'
 #' # knitr::spin -- Part III: An Advanced Use
 #'
-#' ## An Advanced Use Case
+#' ## knitr::spin | Conditional Evaluation
 #'
-#' * Using spin to build package vignettes
-#'   * Standard Vignettes
-#'   * Conditional evaluation for documenting "data-raw"
-
+#' * Build a R package with example data sets.
+#'   * data sets are build in the `data-raw` directory
+#'   * Provide details on the construction of the data set in a package vignette
+#'
+#' * knitr::spin, and little hacking, *with one file*, will let you:
+#'
+#'   1. Build the data set and R documentation in the data-raw directory
+#'   dynamically.
+#'   2. Build a vignette for the end user to reference.
+#'
+#' ## knitr::spin | Conditional Evaluation
+#'
+#' * This example relies of softlinks
+#'   * Mac and Linux users you're cool.
+#'   * Windows users.... this will require a little effort
+#'
+#' * This example will illustrate conditional evaluation of code.
+#'
+#'
+#' # Thank you
+#'
+#' * Slides and examples from this talk are available at
+#' https://github.com/dewittpe/drug-20190423
+#'
+#' * ASA COWY Meeting on Friday the 26th
+#'
+#' * Future Speakers and Topics?
+#'
 # /* end of file */
