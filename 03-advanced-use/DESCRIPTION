@@ -12,7 +12,10 @@ LazyData: true
 Depends:
     R (>= 3.5.0)
 Suggests:
+    dplyr,
     knitr,
+    magrittr,
+    readr,
     rmarkdown
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr
