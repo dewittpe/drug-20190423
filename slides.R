@@ -94,10 +94,37 @@ knitr::opts_chunk$set(collapse = TRUE)
 #'
 #' * Example: 01-flights.R
 #'
-#' * Build the .html via: `knitr::spin("01-flights.R")`
+#' * Workflow:  .R --> .Rmd --> .md --> .html
 #'
-#' # knitr::spin -- Part II:
+#' ## knitr::spin | Benefits over knitr::knit
+#'
+#' * R scripts!  These can be sourced by other scripts
+#'
+#' * Multiple types of comments:
+#'   * Standard R comments
+#'   * Commented blocks omitted from resulting .Rmd
+#'
+#' * My opinion:
+#'   * easier development work to write a .R than and .Rmd
+#'   * .Rmd is a redo of the original work done in through-away files such as
+#'   "eda.R" and "initial-analysis.R"
+#'
+#' # knitr::spin -- Part II:  A Full Document
+#'
+#' ## A full report in a .R file
+#'
+#' * YAML Headers can be used.
+#'
+#' * Just define the build process you want.
+#'
+#' * Example 02
 #'
 #' # knitr::spin -- Part III: An Advanced Use
+#'
+#' ## An Advanced Use Case
+#'
+#' * Using spin to build package vignettes
+#'   * Standard Vignettes
+#'   * Conditional evaluation for documenting "data-raw"
 
 # /* end of file */
