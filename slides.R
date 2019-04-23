@@ -1,6 +1,6 @@
 #'---
 #'title: "knitr::spin -- A more dynamic approach to dynamic documents"
-#'subtitle: "Denver R Users Group<br>Meet and Greet from now to ~ 7:30pm<br>Talk to start ~7:30pm"
+#'subtitle: "Denver R Users Group<br>Meet and Greet until ~ 7:30pm &nbsp; Talk start ~7:30pm<br>Code/Examples for this talk: github.com/dewittpe/drug-20190423"
 #'author: "Peter E. DeWitt, Ph.D.<br><peter.dewitt@ucdenver.edu>"
 #'date: 23 April 2019
 #'output:
