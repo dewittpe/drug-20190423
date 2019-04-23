@@ -12,12 +12,14 @@ LazyData: true
 Depends:
     R (>= 3.5.0)
 Suggests:
+    BiocStyle,
     dplyr,
     ggplot2,
     knitr,
     magrittr,
     mapproj,
     maps,
+    qwraps2,
     readr,
     rmarkdown
 RoxygenNote: 6.1.1
