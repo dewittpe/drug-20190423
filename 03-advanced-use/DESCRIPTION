@@ -1,0 +1,18 @@
+Package: drug.eg
+Title: Denver R User Group Example
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Peter", "DeWitt", , "peter.dewitt@ucdenver.edu", role = c("aut", "cre"))
+    )
+Description: An example package using knitr::spin to build vignettes and
+    document data sets.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0)
+Suggests:
+    knitr,
+    rmarkdown
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
